@@ -1,0 +1,135 @@
+body{
+    background-color: #fafafa;
+}
+
+/* .bigLogo */
+.bigLogo a{
+    display: block;
+    height: 442px;
+    width: 100%;
+}
+.bigLogo a img{
+    height: 100%;
+    width: 100%;
+}
+/* 导航介绍栏 */
+.navIntr{
+    width: 1200px;
+    height: 120px;
+    margin: 0 auto;
+    border-bottom: 1px solid #c1c1c1;
+}
+.navIntr div{
+    height: 20px;
+    margin-top: 80px;
+    font-size: 20px;
+    color: #363636;
+}
+.navIntr a{
+    font-size: 18px;
+    margin-top: 80px;
+    color: #868686;
+}
+/* 独立物品块 */
+.lonlyGoods{
+    margin: 45px auto 0;
+    height: 533px;
+    width: 1200px;
+}
+.lonlyGoods .bigGoods{
+    height: 279px;
+    width: 1200px;
+}
+.lonlyGoods .bigGoods a{
+    display: block;
+    height: 251px;
+    width: 1172px;
+    border: 14px solid #ffffff;
+}
+.lonlyGoods .litGoods{
+    height: 238px;
+    width: 1200px;
+    margin-top: 17px;
+
+}
+.lonlyGoods .litGoods .lit{
+    height: 238px;
+    width: 338px;
+}
+.lonlyGoods .litGoods .lit a{
+    display: block;
+    height: 210px;
+    width: 310px;
+    border: 14px solid #ffffff;
+}
+.lonlyGoods .litGoods .litCenter{
+    width: 488px;
+    height: 238px;
+    margin: 0 17px;
+}
+.lonlyGoods .litGoods .litCenter a{
+    display: block;
+    height: 210px;
+    width: 460px;
+    border: 14px solid #ffffff;
+}
+/* 物品块 */
+.goodsDiv{
+    margin: 0 auto;
+    width: 1200px;
+    height: 3369px;
+}
+.goodsDiv .goods{
+    margin-top: 45px;
+    height: 504px;
+    width: 576px;
+    background-color: #ffffff;
+}
+.goodsDiv .goods:nth-child(odd){
+    margin-right: 45px;
+}
+.goodsDiv .goods a{
+    display: block;
+    height: 476px;
+    width: 548px;
+    border: 14px solid #ffffff;
+}
+/* 549*6 45
+75 */
+.goodsDiv .goods .goodsTop{
+    height: 276px;
+    width: 548px;
+}
+.goodsDiv .goods .goodsBot{
+    width: 546px;
+    height: 198px;
+    border: 1px solid #f7f7f7;
+}
+.goodsDiv .goods .goodsBot>div{
+    height: 198px;
+    width: 182px;
+}
+.goodsDiv .goods .goodsBot>div .ph{
+    height: 125px;
+    width: 125px;
+    margin: 7px 0 7px 29px;
+}
+.goodsDiv .goods .goodsBot>div .na{
+    height: 37px;
+    width: 156px;
+    margin-left: 12px;
+    font-size: 12px;
+    color: #4b4b4b;
+    font-weight: 500;
+}
+.goodsDiv .goods .goodsBot>div .no{
+    height: 28px;
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    color: #4b4b4b;
+    font-weight: 500;
+}
+.goodsDiv .goods .goodsBot>div .no del{
+    color: #d9d9d9;
+}

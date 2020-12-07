@@ -1,0 +1,187 @@
+/* 首页字体颜色 */
+#homeChange{
+    color: #6c6c6c;
+}
+/* 秒杀栏 */
+.navChoice{
+    height:34px ;
+    width: 100%;
+    background-color: #ed435b;
+    border-bottom: 6px solid #ed435b;
+    position: sticky;
+    top: 111px;
+    z-index: 10;
+}
+.navChoice .choiceBox{
+    width: 1200px;
+    height: 34px;
+    margin: 0 auto;
+}
+.navChoice .choiceBox li{
+    float: left;
+    line-height: 34px;
+    padding: 0 18px;
+}
+.navChoice .choiceBox li a{
+    color: #ffffff;
+    font-size: 18px;
+}
+.navChoice .choiceBox li:first-child{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-bottom: 5px;
+}
+/* 大块logo */
+.logoBigBox{
+    width: 1200px;
+    height: 327px;
+    margin: 0 auto;
+    padding-top: 48px;
+}
+.logoBigBox .listLogo{
+    height: 271px;
+    width: 1180px;
+    border: 10px solid #ffffff;
+    
+}
+.logoBigBox .listLogo .logoLeft{
+    height: 271px;
+    width: 546px;
+}
+.logoBigBox .listLogo .logoRight{
+    height: 269px;
+    width: 632px;
+    border: 1px solid #f6f6f6;
+    background-color: #ffffff;
+}
+.logoBigBox .listLogo .logoRight div:nth-child(1){
+    height: 54px;
+    width: 528px;
+    border-bottom: 1px solid #f6f6f6;
+    margin-top: 6px;
+    margin-left: 30px;
+    line-height: 54px;
+    font-size: 24px;
+    
+}
+.logoBigBox .listLogo .logoRight div:nth-child(2){
+    height: 54px;
+    width: 528px;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #686868;
+    font-size: 16px;
+}
+/* 列表盒子 */
+.listContainer{
+    width:1200px;
+    height: 5590px;
+    margin: 0 auto;
+}
+.listContainer .things{
+    height: 394px;
+    width: 276px;
+    margin-bottom: 36px;
+    margin-right: 30px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+
+.listContainer .things:nth-child(4n){
+    margin-right: 0;
+}
+.listContainer .things>div:first-child{
+    display: block;
+    width: 220px;
+    height: 220px;
+    padding: 28px;
+    position: relative;
+}
+.listContainer .things .bg{
+    width: 152px;
+    height: 152px;
+    padding:34px;
+    
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+
+    z-index: 2;
+    display: none;
+} 
+.listContainer .things:hover .bg{
+    display:block
+} 
+.listContainer .things .scan{
+    position: absolute;
+    
+    font-size: 12px;
+    z-index: 3;
+    top: 220px;
+    left: 94px;
+    /* background-color: black; */
+    display: none;
+}
+.listContainer .things .scan a{
+    color: #fff;
+    font-size: 14px;
+}
+.listContainer .things:hover .scan{
+    display:block
+} 
+
+.listContainer .things div:nth-child(2){
+    width: 240px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #686868;
+}
+.listContainer .things .tMoney{
+    position: absolute;
+    left: 18px;
+    bottom: 25px;
+    font-size: 18px;
+    color: #000000;
+}
+.listContainer .things .tMoney span{
+    font-size: 12px;
+}
+.listContainer .things .tMoney del{
+    font-size: 14px;
+    color: #cbcbcb;
+}
+.listContainer .things .count{
+    position: absolute;
+    right: 16px;
+    bottom: 26px;
+    color: #9c9c9c;
+    font-size: 14px;
+}
+.listContainer .thingsEnd{
+    height: 394px;
+    width: 276px;
+    margin-bottom: 36px;
+    margin-right: 30px;
+    background-color: #ffffff;
+    position: relative;
+}
+.listContainer .thingsEnd .end{
+    display: block;
+    width: 153px;
+    height: 153px;
+    padding:34px  62px;
+}
+.listContainer .thingsEnd .more{
+    margin-top: 65px;
+    width: 276px;
+    height: 22px;
+    font-size: 22px;
+    text-align: center;
+    color: #999999;
+}
+.listContainer .thingsEnd .app{
+    width: 276px;
+    height: 22px;
+    font-size: 22px;
+    text-align: center;
+    color: #999999;
+}
